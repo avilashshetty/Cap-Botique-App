@@ -4,4 +4,4 @@ COPY ./package.json .
 RUN npm install
 COPY . .
 EXPOSE 3015
-ENTRYPOINT ["node", "index.js"]
+ENTRYPOINT ["node", "app.js"]
